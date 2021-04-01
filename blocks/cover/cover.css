@@ -1,4 +1,30 @@
 .cover {
+    display: grid;
     position: relative;
-    margin: 92px 48px 92px 48px;
+    margin: 92px 48px;
+    grid-template-rows: 1fr 1fr;
+
 }
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 92px 0;
+        height: 640px;
+        max-width: 1024px;
+
+    }  
+  }
+@media screen and (max-width: 768px) {
+    .cover {
+      margin: 90px 0 88px ;
+      height: 480px;
+      max-width: 768px;
+
+    }  
+  }
+@media screen and (max-width: 320px) {
+    .cover {
+      margin: 66px 0 64px ;
+      height: 200px;
+      max-width: 320px;
+    } 
+  }
