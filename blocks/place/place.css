@@ -1,6 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  box-sizing: content-box;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   margin-bottom: 80px;
@@ -16,10 +17,16 @@
       margin-bottom: 73px;
     }  
   }
+  @media screen and (max-width: 600px) {
+    .place {
+      grid-template-columns: auto;
+    }
+  }
+
+
 @media screen and (max-width: 320px) {
     .place {
       row-gap: 32px;
       margin-bottom: 50px;
-      grid-template-columns: auto;
     } 
   }
