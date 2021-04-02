@@ -1,4 +1,5 @@
 .cover__background {
+    text-decoration: none;
     z-index: 1;
     height: 740px;
     max-width: 1184px;
