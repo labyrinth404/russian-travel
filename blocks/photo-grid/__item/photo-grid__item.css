@@ -1,5 +1,23 @@
 .photo-grid__item {
-  width: 284px;
-  max-height: 213px;
-  height: 100%;
+    width: 284px;
+    max-height: 213px;
+    height: 100%;
+}
+
+@media screen and (max-width: 1190px) {
+    .photo-grid__item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid__item {
+        width: calc(50vw - 64px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid__item {
+        width: 90vw;
+    }
 }
