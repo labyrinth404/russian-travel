@@ -7,7 +7,6 @@
     grid-auto-rows: 1fr;
     gap: 16px;
     align-self: center;
-    box-sizing: content-box;
 }
 
 @media screen and (max-width: 1190) {
