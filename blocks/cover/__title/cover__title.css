@@ -11,7 +11,7 @@
   grid-row: 1/2;
   align-self: end;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
