@@ -2,8 +2,14 @@
     text-decoration: none;
     color: white;
     justify-self: start;
-    font-style: normal;
-    font-weight: normal;
+    font-style: Regular;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 93%;
+}
+
+@media screen and (max-width: 480px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 83%;
+    } 
 }

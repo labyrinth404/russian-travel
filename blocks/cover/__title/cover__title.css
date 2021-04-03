@@ -3,8 +3,9 @@
   z-index: 2;
   white-space: pre-line;
   font-weight: 900;
+  font-style: Black;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 87%;
   text-align: center;
   justify-self: center;
   grid-column: 1/2;
@@ -14,7 +15,7 @@
 @media screen and (max-width: 500px) {
   .cover__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 90%;
     margin-bottom: 8px;
   } 
 }

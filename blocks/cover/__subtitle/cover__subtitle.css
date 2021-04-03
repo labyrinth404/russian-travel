@@ -2,10 +2,9 @@
   z-index: 2;
   max-height: 66px;
   max-width: 360px;
-  font-style: normal;
-  font-weight: normal;
+  font-style: Regular;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 101%;
   grid-column: 1/2;
   grid-row: 2/3;
   align-self: start;
@@ -14,10 +13,10 @@
   margin: 16px 0 0;
   white-space: pre-line;
 }
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
+@media screen and (max-width: 500px) {
+  .cover__title {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 94%;
     margin-top: 8px;
   } 
 }

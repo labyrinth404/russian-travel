@@ -1,7 +1,6 @@
 .intro__list {
     margin: 0;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     white-space: pre-line;
