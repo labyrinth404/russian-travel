@@ -13,8 +13,8 @@
   margin: 16px 0 0;
   white-space: pre-line;
 }
-@media screen and (max-width: 500px) {
-  .cover__title {
+@media screen and (max-width: 506px) {
+  .cover__subtitle {
     font-size: 14px;
     line-height: 94%;
     margin-top: 8px;
