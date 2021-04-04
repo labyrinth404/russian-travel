@@ -1,14 +1,15 @@
 .cover__background {
+    color: white;
     text-decoration: none;
-    z-index: 1;
-    height: 740px;
+    z-index: -1;
     max-width: 1184px;
+    height: 740px;
     opacity: 30%;
     background-image: url("../../../images/footer.png");
-    background-size: 100% 100%;
-    grid-column: 1/2;
-    grid-row: 1/3;
+    background-position: center;
+    background-size: cover;
     transition: opacity 0.8s ease-in;
+    display: grid;
 }
 
 .cover__background:hover {
@@ -18,21 +19,18 @@
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        height: 640px;
         max-width: 1024px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__background {
-        height: 480px;
         max-width: 768px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__background {
-        height: 200px;
         max-width: 320px;
     }
 }

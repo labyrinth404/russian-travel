@@ -1,19 +1,19 @@
 .header {
-  padding: 28px 48px 0 48px;
-  display: grid;
-  grid-template-columns: 1fr 30px 30px;
-  justify-items: start;
-  align-items: center;
-  gap: 18px;
-  
+    padding: 28px 48px 0 48px;
+    grid-template-columns: 1fr 30px 30px;
+    justify-items: start;
+    align-items: center;
+    gap: 18px;
 }
+
 @media screen and (max-width: 768px) {
-  .header {
-    padding: 28px 24px 0 24px;
-  }  
+    .header {
+        padding: 28px 24px 0 24px;
+    }
 }
+
 @media screen and (max-width: 320px) {
-  .header {
-    padding: 16px 16px 0 16px;
-  } 
+    .header {
+        padding: 16px 16px 0 16px;
+    }
 }

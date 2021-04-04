@@ -1,12 +1,10 @@
 .lead__subtitle {
-  height: 72px;
   font-weight: 400;
   font-size: 30px;
   line-height: 99%;
   justify-self: center;
   text-align: center;
   margin: 0 auto 64px;
-  white-space: pre-line;
 }
 
 @media screen and (max-width: 560px) {

@@ -1,21 +1,22 @@
 .cover__title {
-  margin: 0 0 16px;
-  z-index: 2;
-  white-space: pre-line;
-  font-weight: 900;
-  font-style: black;
-  font-size: 72px;
-  line-height: 87%;
-  text-align: center;
-  justify-self: center;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  align-self: end;
+    color: white;
+    margin: 0 0 16px;
+    z-index: 2;
+    font-weight: 900;
+    font-style: black;
+    font-size: 72px;
+    line-height: 87%;
+    text-align: center;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: end;
 }
+
 @media screen and (max-width: 506px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 90%;
-    margin-bottom: 8px;
-  } 
+    .cover__title {
+        font-size: 32px;
+        line-height: 90%;
+        margin-bottom: 8px;
+    }
 }

@@ -1,11 +1,9 @@
 .lead__title {
-    max-height: 200px;
     font-weight: 900;
     font-size: 96px;
     line-height: 86%;
     text-align: center;
     margin: 0 0 32px;
-    white-space: pre-line;
 }
 
 @media screen and (max-width: 760px) {
