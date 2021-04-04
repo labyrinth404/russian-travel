@@ -5,6 +5,13 @@
 
 @media screen and (max-width: 720px) {
     .footer__element {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer__element {
         display: block;
         font-size: 24px;
         line-height: 24px;
@@ -13,4 +20,4 @@
     .footer__element:last-child {
         margin-bottom: 0;
     }
-  }
+}

@@ -19,16 +19,11 @@
     background-color: #2A2C2F;
     opacity: 30%;
     transition: .5s;
-  }
-.cover__background:hover::after {
-   
-    opacity: 80%;
 }
 
-
-
-
-
+.cover__background:hover::after {
+    opacity: 80%;
+}
 
 @media screen and (max-width: 1024px) {
     .cover__background {
@@ -42,8 +37,9 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 506px) {
     .cover__background {
-        max-width: 320px;
+        max-width: 506px;
+        height: 200px;
     }
 }

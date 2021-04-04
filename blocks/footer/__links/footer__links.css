@@ -1,5 +1,4 @@
 .footer__links {
-    
     list-style-type: none;
     padding: 0;
 }
@@ -7,5 +6,6 @@
 @media screen and (max-width: 720px) {
     .footer__links {
         display: block;
+        margin: 0;
     }
-  }
+}

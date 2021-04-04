@@ -1,18 +1,22 @@
 .footer {
-  color: white;
-  display: grid;
-  grid-template-columns: 5fr 1fr;
-  align-items: center;
-  justify-items: start;
-  width: 100%;
-  margin: 0 48px 24px;
-  
+    color: white;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    justify-items: start;
+    margin: 0 48px 24px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 0 24px 24px;
+    }
+}
 
 @media screen and (max-width: 720px) {
-  .footer {
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr;
-  }
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr;
+        margin: 0;
+    }
 }
