@@ -5,4 +5,11 @@
     font-style: normal;
     line-height: 28px;
     display: inline;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+
+    }
 }

@@ -1,21 +1,34 @@
 .cover__background {
     color: white;
     text-decoration: none;
-    z-index: -1;
-    max-width: 1184px;
     height: 740px;
-    opacity: 30%;
     background-image: url("../../../images/footer.png");
     background-position: center;
     background-size: cover;
-    transition: opacity 0.8s ease-in;
     display: grid;
+    position: relative;
 }
 
-.cover__background:hover {
+.cover__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #2A2C2F;
+    opacity: 30%;
+    transition: .5s;
+  }
+.cover__background:hover::after {
+   
     opacity: 80%;
 }
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
     .cover__background {

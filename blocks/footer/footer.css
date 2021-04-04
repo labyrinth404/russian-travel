@@ -1,27 +1,18 @@
 .footer {
-  margin: 0 48px;
-  padding-bottom: 24px;
+  color: white;
   display: grid;
-  grid-template-columns: repeat(5, 1fr) 20fr;
-  gap: 18px;
-}
-
-@media screen and (max-width: 658px) {
-  .footer {
-    grid-template-columns: repeat(1, 1fr) 4fr;
-    grid-template-rows: repeat(2, 1fr) 4fr;
-    align-self: start;
-    justify-self: start;
-  }
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  justify-items: start;
+  width: 100%;
+  margin: 0 48px 24px;
+  
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .footer {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr) 2fr;
-    gap: 32px;
-    margin: 0 16px 0;
-
-  } 
+    grid-template-rows: 5fr;
+  }
 }

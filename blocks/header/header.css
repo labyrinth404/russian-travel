@@ -1,15 +1,8 @@
 .header {
     padding: 28px 48px 0 48px;
-    grid-template-columns: 1fr 30px 30px;
-    justify-items: start;
-    align-items: center;
-    gap: 18px;
-}
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 
-@media screen and (max-width: 768px) {
-    .header {
-        padding: 28px 24px 0 24px;
-    }
 }
 
 @media screen and (max-width: 320px) {

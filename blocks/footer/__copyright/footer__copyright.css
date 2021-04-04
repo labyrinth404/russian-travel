@@ -1,19 +1,10 @@
 .footer__copyright {
-  margin: 0;
-  justify-self: end;
-  font-style: regular;
-  font-size: 14px;
-  line-height: 94%;
-}
-@media screen and (max-width: 658px) {
-  .footer__copyright {
-    justify-self: end;
-  } 
+
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
   .footer__copyright {
-    line-height: 83%;
-    justify-self: start;
+    margin: 48px 0 24px 16px;
   }
+
 }

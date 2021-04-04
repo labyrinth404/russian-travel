@@ -1,0 +1,16 @@
+.footer__element {
+    display: inline;
+    margin-right: 18px;
+}
+
+@media screen and (max-width: 720px) {
+    .footer__element {
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 32px 16px;
+    }
+    .footer__element:last-child {
+        margin-bottom: 0;
+    }
+  }
