@@ -2,9 +2,12 @@
     color: white;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    align-items: center;
-    justify-items: start;
+    grid-template-rows: auto;
     margin: 0 48px 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {}
 }
 
 @media screen and (max-width: 768px) {

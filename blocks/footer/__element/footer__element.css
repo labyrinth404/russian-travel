@@ -1,6 +1,5 @@
 .footer__element {
     display: inline;
-    margin-right: 18px;
 }
 
 @media screen and (max-width: 720px) {
