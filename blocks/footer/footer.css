@@ -1,9 +1,10 @@
 .footer {
     color: white;
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin: 0 48px 24px;
+    justify-items: left;
 }
 
 @media screen and (max-width: 768px) {

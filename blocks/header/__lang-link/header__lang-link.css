@@ -4,9 +4,9 @@
     font-size: 24px;
     font-style: normal;
     line-height: 28px;
-    display: inline;
     list-style-type: none;
-    margin: 0 0 0 16px;
+    max-height: 30px;
+    max-width: 28px;
 }
 
 @media screen and (max-width: 320px) {
