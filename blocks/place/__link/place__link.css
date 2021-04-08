@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
     margin: 0;
     align-items: end;
     color: white;
@@ -8,6 +8,6 @@
     transition: opacity .4s ease-in-out;
 }
 
-.place__website_link:hover {
+.place__link:hover {
     opacity: .8;
 }

@@ -1,7 +1,7 @@
 .cover__background {
     color: white;
     text-decoration: none;
-    height: 740px;
+    min-height: 740px;
     background-image: url("../../../images/footer.jpg");
     background-position: center;
     background-size: cover;
@@ -27,13 +27,13 @@
 
 @media screen and (max-width: 1024px) {
     .cover__background {
-        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__background {
-        max-height: 480px;
+        min-height: 480px;
     }
 }
 

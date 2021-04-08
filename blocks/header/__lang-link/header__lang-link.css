@@ -7,6 +7,11 @@
     list-style-type: none;
     max-height: 30px;
     max-width: 28px;
+    transition: opacity .4s ease-in-out;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 320px) {

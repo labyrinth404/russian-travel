@@ -1,7 +1,6 @@
 .cover__subtitle {
     z-index: 2;
     max-width: 360px;
-    font-style: regular;
     font-size: 18px;
     line-height: 22px;
     grid-column: 1/2;

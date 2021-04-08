@@ -1,0 +1,20 @@
+.place__text {
+    margin: 0 0 26px;
+}
+
+.place__text:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 902px) {
+    .place__text {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 704px) {
+    .place__text {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
