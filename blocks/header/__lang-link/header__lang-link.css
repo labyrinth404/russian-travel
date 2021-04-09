@@ -5,7 +5,6 @@
     font-style: normal;
     line-height: 28px;
     list-style-type: none;
-    max-height: 30px;
     max-width: 28px;
     transition: opacity .4s ease-in-out;
 }
