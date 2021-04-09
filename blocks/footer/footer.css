@@ -5,10 +5,8 @@
     grid-template-rows: auto;
     margin: 0 48px 24px;
     justify-items: left;
-}
-
-@media screen and (max-width: 768px) {
-    .footer {}
+    max-width: 1184px;
+    margin: 0 auto 24px;
 }
 
 @media screen and (max-width: 768px) {
